@@ -60,6 +60,15 @@ const steps = [
 export default class ChatBot extends Component {
   render() {
     return (
+      // steps = rules
+      //botAvatar='https://..............'
+      //userAvatar='https://..............'
+
+      // dialog colors
+      //botFontColor={ '#FFF' } 
+      //userFontColor={ '#FFF' }
+      //botBubbleColor={ '#FFF' } 
+      //userBubbleColor={ '#FFF' }
       <Bot steps={steps} />
     );
   }
